@@ -1,0 +1,25 @@
+.guitar {
+    display: flex;
+  }
+  
+  .fret {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    margin-right: 10px;
+    background-color:brown;
+  }
+  
+  .string {
+    width: 50px;
+    height: 10px;
+    background-color: gray;
+    border: 1px solid black;
+    margin-bottom: 2px;
+  }
+  
+  .string:active {
+    background-color: white;
+  }
+  
